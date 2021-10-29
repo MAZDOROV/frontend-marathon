@@ -1,4 +1,13 @@
 body {
+    color: #fff;
+    font-family: 'Khula', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+  }
+
+  .screen {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,4 +16,12 @@ body {
     width: 100vw;
     transition: margin 0.5s ease-out;
     background: linear-gradient(90deg, #29323C 0%, #485563 100%);
+  }
+
+  .menu {
+    padding: 20px;
+    background-color: #C0C0C0;
+    box-shadow: -8px -8px 20px #2A333D, 10px 7px 20px #475462;
+    border-radius: 20px;
+    text-align: left;
   }
